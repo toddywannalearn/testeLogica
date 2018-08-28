@@ -45,10 +45,14 @@ fun main(args: Array<String>){
         println("Digite o Registro do funcionario: ")
         funcionarios.registro = readLine()!!.toInt()
 
-        println("Digite o Salario do funcionario: ")
-        funcionarios.salario = readLine()!!.toDouble()
+        if(funcionarios.registro != 0){
+            println("Digite o Salario do funcionario: ")
+            funcionarios.salario = readLine()!!.toDouble()
 
-        salarios.put(funcionarios.registro,funcionarios.salario)
+            salarios.put(funcionarios.registro,funcionarios.salario)
+        }else
+            continue
+
 
     }while (funcionarios.registro != 0)
 
@@ -56,4 +60,6 @@ fun main(args: Array<String>){
     println(Funcionarios().maiorEMenorSalario(salarios))
 
 }
+
+
 
