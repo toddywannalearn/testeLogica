@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8150d9c-e3f3-4e76-80ff-4e371984c2eb" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/MesPorExtenso.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmOrdemDecrescente.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,11 +28,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MesPorExtenso.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MesPorExtenso.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MesPorExtenso.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+            <state relative-caret-position="304">
+              <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EmOrdemDecrescente.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/EmOrdemDecrescente.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -62,6 +70,7 @@
       <list>
         <option value="$PROJECT_DIR$/src/PesquisaHabitantes.kt" />
         <option value="$PROJECT_DIR$/src/MesPorExtenso.kt" />
+        <option value="$PROJECT_DIR$/src/EmOrdemDecrescente.kt" />
       </list>
     </option>
   </component>
@@ -112,7 +121,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.MesPorExtensoKt">
+  <component name="RunManager" selected="Kotlin.EmOrdemDecrescenteKt">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -131,6 +140,16 @@
         <value defaultName="singleModule" />
       </option>
       <patterns />
+    </configuration>
+    <configuration name="EmOrdemDecrescenteKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="teste" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="EmOrdemDecrescenteKt" />
+      <option name="WORKING_DIRECTORY" />
     </configuration>
     <configuration name="MesPorExtensoKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="teste" />
@@ -177,9 +196,11 @@
     <list>
       <item itemvalue="Kotlin.PesquisaHabitantesKt" />
       <item itemvalue="Kotlin.MesPorExtensoKt" />
+      <item itemvalue="Kotlin.EmOrdemDecrescenteKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.EmOrdemDecrescenteKt" />
         <item itemvalue="Kotlin.MesPorExtensoKt" />
         <item itemvalue="Kotlin.PesquisaHabitantesKt" />
       </list>
@@ -204,7 +225,7 @@
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Messages" weight="0.32941177" />
       <window_info anchor="right" id="Palette&#9;" />
       <window_info id="Image Layers" />
       <window_info anchor="right" id="Capture Analysis" />
@@ -250,8 +271,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MesPorExtenso.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        <state relative-caret-position="304">
+          <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EmOrdemDecrescente.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
         </state>
       </provider>
     </entry>
